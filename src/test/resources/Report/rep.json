@@ -1,0 +1,349 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1028900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch Facebook Web Application",
+            "match": {
+              "location": "StepDefinition.user_launch_Facebook_Web_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14883000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User verify Facebook Loginwebpage is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Facebook_Loginwebpage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-16T13:33:15.713Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10566174700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "TC03_Validation of Loginpage with Multiples invalid credentials",
+        "description": "",
+        "id": "validation-of-facebook-login-page;tc03-validation-of-loginpage-with-multiples-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1089943800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 420670500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters invalid \"Greens\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Greens\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.user_enters_invalid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156814600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks Login Button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4556190200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User verify Error message is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 85000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch Facebook Web Application",
+            "match": {
+              "location": "StepDefinition.user_launch_Facebook_Web_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11925600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User verify Facebook Loginwebpage is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Facebook_Loginwebpage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-16T13:33:32.565Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4918179000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "TC03_Validation of Loginpage with Multiples invalid credentials",
+        "description": "",
+        "id": "validation-of-facebook-login-page;tc03-validation-of-loginpage-with-multiples-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1015393400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 349196900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters invalid \"Greens\" and \"Abc@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Greens\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Abc@123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.user_enters_invalid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143509600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks Login Button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6277748100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User verify Error message is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 101200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch Facebook Web Application",
+            "match": {
+              "location": "StepDefinition.user_launch_Facebook_Web_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12963100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User verify Facebook Loginwebpage is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Facebook_Loginwebpage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-16T13:33:45.287Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5287089600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "TC03_Validation of Loginpage with Multiples invalid credentials",
+        "description": "",
+        "id": "validation-of-facebook-login-page;tc03-validation-of-loginpage-with-multiples-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 938207500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 362330200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters invalid \"Greens\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Greens\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.user_enters_invalid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154897000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks Login Button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3998593900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User verify Error message is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Facebook Login page",
+    "description": "",
+    "id": "validation-of-facebook-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CucumberJvmReport.feature",
+    "tags": []
+  }
+]
